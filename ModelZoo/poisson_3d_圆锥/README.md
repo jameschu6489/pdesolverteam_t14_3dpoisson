@@ -1,10 +1,7 @@
 ## 问题描述
 
 三维Poisson方程
-$$
-\Delta u=-\sin (4 \pi x) \sin (4 \pi y) \sin (4 \pi z),  \, (x,y,z) \in \Omega \\
-u = \frac{1}{3(4\pi)^2}\sin (4 \pi x) \sin (4 \pi y) \sin (4 \pi z),  \, (x,y,z) \in \partial\Omega
-$$
+$$\Delta u=-\sin (4 \pi x) \sin (4 \pi y) \sin (4 \pi z),  ~ (x,y,z) \in \Omega, \\qquad u = \frac{1}{3(4\pi)^2}\sin (4 \pi x) \sin (4 \pi y) \sin (4 \pi z),  ~(x,y,z)\in \partial\Omega$$
 其中 $\Omega$ 代表求解区域，我们求解了几种常用的几何边界：四面体、圆柱、圆锥。
 
 
